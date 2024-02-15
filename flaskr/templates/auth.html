@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+<!-- hier onder komt de titel -->
+{% block title %} Home {% endblock %}
+
+<!-- hier onder komt de inhoud van dit html bestand -->
+{% block content %}
+
+<form id="login_data" method="POST">
+    <label for="email">E-mailadres: <input type="email" id="email" name="email" placeholder="E-mailadres"></label>
+    <label for="email">Wachtwoord: <input type="password" id="password" name="password" placeholder="Wachtwoord"></label>
+    <label for="submit"><input type="submit" id="submit" name="submit"></label>
+</form>
+
+
+{% endblock %}
